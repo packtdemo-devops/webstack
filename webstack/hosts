@@ -38,7 +38,7 @@ db-server
 ## 10.25.1.56
 ## 10.25.1.57
 
-# Ex 3: A collection of database servers in the 'dbservers' group
+# Ex 3: A collection of testservers in the 'testservers' group
 
 [testservers]
 ubuntu
