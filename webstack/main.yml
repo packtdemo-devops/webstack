@@ -1,0 +1,13 @@
+---
+
+- hosts: testservers
+  tasks:
+
+- name: Install NodeJS  
+  hosts: testservers
+  gather_facts: yes
+  become: yes
+  tasks:
+  
+  roles:
+    - web
